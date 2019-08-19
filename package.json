@@ -1,0 +1,34 @@
+{
+    "name": "@types/rc-tree",
+    "version": "1.11.3",
+    "description": "TypeScript definitions for rc-tree",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "John Reilly",
+            "url": "https://github.com/johnnyreilly",
+            "githubUsername": "johnnyreilly"
+        },
+        {
+            "name": "Methuselah96",
+            "url": "https://github.com/Methuselah96",
+            "githubUsername": "Methuselah96"
+        }
+    ],
+    "main": "",
+    "types": "index",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/react": "*"
+    },
+    "typesPublisherContentHash": "220497846414b3a48c6bf5164d154a1a8855df16e4f5094bccb5357771b7b672",
+    "typeScriptVersion": "2.8"
+
+,"_resolved": "https://registry.npmjs.org/@types/rc-tree/-/rc-tree-1.11.3.tgz"
+,"_integrity": "sha512-RxWXGy5PiR02TyZ1fNuqmBIeLylUOSIHLuWpnRswI18N2lpAqzXLaJhIctnGcn0OXjYss96EEJddL8tLFXuvNQ=="
+,"_from": "@types/rc-tree@1.11.3"
+}
