@@ -214,7 +214,7 @@ export interface TreeProps {
     /**
      * click the treeNode/checkbox to fire
      */
-    onCheck?(checkedKeys: CheckedKeys, e: CheckData): void;
+    onCheck?(checkedKeys: CheckedKeys | string[], e: CheckData): void;
     /**
      * click the treeNode to fire
      */
