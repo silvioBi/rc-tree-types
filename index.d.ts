@@ -42,6 +42,10 @@ export interface TreeNodeProps {
      */
     isLeaf?: boolean;
     /**
+     * whether support checked
+     */
+    checkable?: boolean | JSX.Element;
+    /**
      * customize icon. When you pass component, whose render will receive full TreeNode props as component props
      */
     icon?: JSX.Element | ((props: InternalTreeNodeProps) => JSX.Element);
@@ -60,6 +64,11 @@ export interface CheckData {
     halfCheckedKeys: string[];
     node: InternalTreeNode;
     event: "check";
+}
+
+export interface CheckedKeys {
+    checked: string[];
+    halfChecked: string[];
 }
 
 export interface SelectData {
@@ -205,7 +214,7 @@ export interface TreeProps {
     /**
      * click the treeNode/checkbox to fire
      */
-    onCheck?(checkedKeys: string[], e: CheckData): void;
+    onCheck?(checkedKeys: CheckedKeys, e: CheckData): void;
     /**
      * click the treeNode to fire
      */
